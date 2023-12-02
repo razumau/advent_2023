@@ -10,6 +10,7 @@
 		68BAB2982B1A1F3E00054CE1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 68BAB2972B1A1F3E00054CE1 /* main.c */; };
 		68BAB2A02B1A1F6300054CE1 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 68BAB29F2B1A1F6300054CE1 /* utils.c */; };
 		68BAB2A32B1A23B400054CE1 /* 01.c in Sources */ = {isa = PBXBuildFile; fileRef = 68BAB2A22B1A23B400054CE1 /* 01.c */; };
+		68BAB2A72B1B354F00054CE1 /* 02.c in Sources */ = {isa = PBXBuildFile; fileRef = 68BAB2A62B1B354F00054CE1 /* 02.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,8 @@
 		68BAB2A12B1A23B400054CE1 /* 01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 01.h; sourceTree = "<group>"; };
 		68BAB2A22B1A23B400054CE1 /* 01.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 01.c; sourceTree = "<group>"; };
 		68BAB2A42B1A243B00054CE1 /* input */ = {isa = PBXFileReference; lastKnownFileType = folder; path = input; sourceTree = "<group>"; };
+		68BAB2A52B1B354F00054CE1 /* 02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 02.h; sourceTree = "<group>"; };
+		68BAB2A62B1B354F00054CE1 /* 02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 02.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		68BAB28B2B1A1F3E00054CE1 = {
 			isa = PBXGroup;
 			children = (
+				68BAB2A62B1B354F00054CE1 /* 02.c */,
+				68BAB2A52B1B354F00054CE1 /* 02.h */,
 				68BAB2A42B1A243B00054CE1 /* input */,
 				68BAB2A12B1A23B400054CE1 /* 01.h */,
 				68BAB2A22B1A23B400054CE1 /* 01.c */,
@@ -126,6 +131,7 @@
 				68BAB2A32B1A23B400054CE1 /* 01.c in Sources */,
 				68BAB2982B1A1F3E00054CE1 /* main.c in Sources */,
 				68BAB2A02B1A1F6300054CE1 /* utils.c in Sources */,
+				68BAB2A72B1B354F00054CE1 /* 02.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
