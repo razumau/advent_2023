@@ -11,6 +11,7 @@
 		686B21672B1E539700E9B0A1 /* 04.c in Sources */ = {isa = PBXBuildFile; fileRef = 686B21662B1E539700E9B0A1 /* 04.c */; };
 		686B216A2B1FA25200E9B0A1 /* 05.c in Sources */ = {isa = PBXBuildFile; fileRef = 686B21692B1FA25200E9B0A1 /* 05.c */; };
 		686B216D2B23BCED00E9B0A1 /* 06.c in Sources */ = {isa = PBXBuildFile; fileRef = 686B216C2B23BCED00E9B0A1 /* 06.c */; };
+		686B21702B23C84B00E9B0A1 /* 07.c in Sources */ = {isa = PBXBuildFile; fileRef = 686B216F2B23C84B00E9B0A1 /* 07.c */; };
 		68BAB2982B1A1F3E00054CE1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 68BAB2972B1A1F3E00054CE1 /* main.c */; };
 		68BAB2A02B1A1F6300054CE1 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 68BAB29F2B1A1F6300054CE1 /* utils.c */; };
 		68BAB2A32B1A23B400054CE1 /* 01.c in Sources */ = {isa = PBXBuildFile; fileRef = 68BAB2A22B1A23B400054CE1 /* 01.c */; };
@@ -38,6 +39,8 @@
 		686B21692B1FA25200E9B0A1 /* 05.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 05.c; sourceTree = "<group>"; };
 		686B216B2B23BCED00E9B0A1 /* 06.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 06.h; sourceTree = "<group>"; };
 		686B216C2B23BCED00E9B0A1 /* 06.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 06.c; sourceTree = "<group>"; };
+		686B216E2B23C84B00E9B0A1 /* 07.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 07.h; sourceTree = "<group>"; };
+		686B216F2B23C84B00E9B0A1 /* 07.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 07.c; sourceTree = "<group>"; };
 		68BAB2942B1A1F3E00054CE1 /* advent_2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = advent_2023; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BAB2972B1A1F3E00054CE1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		68BAB29E2B1A1F6300054CE1 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				686B216C2B23BCED00E9B0A1 /* 06.c */,
 				686B21692B1FA25200E9B0A1 /* 05.c */,
 				686B21652B1E539700E9B0A1 /* 04.h */,
+				686B216E2B23C84B00E9B0A1 /* 07.h */,
+				686B216F2B23C84B00E9B0A1 /* 07.c */,
 				686B21662B1E539700E9B0A1 /* 04.c */,
 				68BAB2A62B1B354F00054CE1 /* 02.c */,
 				686B21622B1C963000E9B0A1 /* 03.h */,
@@ -148,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686B21702B23C84B00E9B0A1 /* 07.c in Sources */,
 				68BAB2A32B1A23B400054CE1 /* 01.c in Sources */,
 				68BAB2982B1A1F3E00054CE1 /* main.c in Sources */,
 				68BAB2A02B1A1F6300054CE1 /* utils.c in Sources */,
