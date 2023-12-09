@@ -37,12 +37,12 @@ void parse_numbers(char* line_start, int* accumulator, int count) {
     }
 }
 
-void parse_all_numbers(char* line_start, long long* accumulator) {
+int parse_all_numbers(char* line_start, long* accumulator) {
     char *number_start = line_start;
     char *number_end;
     for (int i = 0;; i++) {
         accumulator[i] = strtol(number_start, &number_end, 10);
-        if (number_start == number_end) { break; }
+        if (number_start == number_end) { return i; }
         number_start = number_end;
     }
 }
